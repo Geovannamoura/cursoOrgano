@@ -1,0 +1,10 @@
+.banner-rodape{
+    width: 100%;
+    position: sticky;
+}
+
+.banner-rodape img{
+    width: 100%;
+    display: block;
+    margin-top: 120px;
+}
