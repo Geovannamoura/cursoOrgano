@@ -4,3 +4,8 @@
     </h2>
     <span class="linha-destaque linha-destaque--grande"></span>
 </section>
+
+<!-- iterar sobre uma lista de generos -->
+@for (genero of generos; track genero) {
+    <app-genero-literario [genero]="genero"></app-genero-literario>
+}
