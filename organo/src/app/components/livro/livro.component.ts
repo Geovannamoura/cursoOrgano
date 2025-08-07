@@ -2,10 +2,11 @@
 //o componente pai irá passar o livro para o componente filho
 import { Component, input } from '@angular/core';
 import { Livro } from './livro';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-livro',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './livro.component.html',
   styleUrl: './livro.component.css'
 })
